@@ -23,8 +23,8 @@ if "username" not in st.session_state:
 # USER CREDENTIALS
 # -------------------------
 USER_CREDENTIALS = {
-    "user1": "password123",
-    "user2": "mypassword"
+    "Ritika": "123",
+    "tina": "xyz"
 }
 
 # -------------------------
@@ -92,3 +92,4 @@ if st.session_state.logged_in:
             st.error("⚠️ Person is Diabetic")
         else:
             st.success("✅ Person is NOT Diabetic")
+
