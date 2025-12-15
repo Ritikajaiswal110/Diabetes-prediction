@@ -1,3 +1,8 @@
 streamlit
 numpy
 scikit-learn
+pandas
+matplotlib
+reportlab
+
+
