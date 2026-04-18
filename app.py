@@ -264,7 +264,7 @@ with st.sidebar:
     glucose  = st.number_input("Glucose Level (mg/dL)",    min_value=0,   max_value=200, value=120, step=1)
     bp       = st.number_input("Blood Pressure (mm Hg)",   min_value=0,   max_value=150, value=70,  step=1)
     skin     = st.number_input("Skin Thickness (mm)",      min_value=0,   max_value=100, value=20,  step=1)
-    insulin  = st.number_input("Insulin (μU/mL)",          min_value=0,   max_value=900, value=79,  step=1)
+    insulin  = st.number_input("Insulin (uU/mL)",          min_value=0,   max_value=900, value=79,  step=1)
     bmi      = st.number_input("BMI",                      min_value=0.0, max_value=70.0,value=25.0,step=0.1, format="%.1f")
     dpf      = st.number_input("Diabetes Pedigree Func.",  min_value=0.0, max_value=3.0, value=0.47,step=0.01,format="%.2f")
     age      = st.number_input("Age",                      min_value=1,   max_value=120, value=30,  step=1)
